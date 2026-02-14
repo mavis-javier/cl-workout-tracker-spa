@@ -13,7 +13,7 @@ interface Greeting {
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
+export class AppComponent {
   protected readonly title = 'Demo';
   greeting: Greeting = {};
 
